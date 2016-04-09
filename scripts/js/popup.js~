@@ -1,0 +1,9 @@
+var btnInOut = document.getElementById("pu_in_out");
+btnInOut.addEventListener("click", function(){
+	var text = btnInOut.value;
+	if ("Time-In" == text){
+		btnInOut.value = "Time-Out";
+	} else {
+		btnInOut.value = "Time-In";
+	}
+});
