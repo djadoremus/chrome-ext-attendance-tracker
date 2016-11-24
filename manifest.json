@@ -1,7 +1,7 @@
 {
 	"manifest_version":2,
-	"name":"DPS Timetracker",
-	"description":"Determine member's presence",
+	"name":"Firebase SO opener",
+	"description":"opens 50 latest Firebase questions",
 	"version":"0.0.1",
 	
 	"browser_action":{
@@ -14,6 +14,8 @@
 	},
 
 	"permissions":[
-		"background"
+		"background",
+		"https://*.stackexchange.com/",
+		"tabs"
 	]
 }
